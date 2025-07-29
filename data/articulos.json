@@ -1,0 +1,28 @@
+{
+  "articulos": [
+    {
+      "titulo": "Los mejores gadgets",
+      "autor": "Eric Mendoza",
+      "contenido": "Conoce los gadgets que necesitas para trabajar desde casa",
+      "imagen": "img/gadget.jpg"
+    },
+    {
+      "titulo": "Elige la bocina adecuada para ti",
+      "autor": "Victor Tapia",
+      "contenido": "Las mejores bocinas inalámbricas bluetooth",
+      "imagen": "img/music.jpg"
+    },
+    {
+      "titulo": "Las mejores televisiones en 2022",
+      "autor": "Irene Hernandez",
+      "contenido": "No te pierdas tu serie favorita",
+      "imagen": "img/tv2.jpeg"
+    },
+    {
+      "titulo": "Mantén actualizada tu computadora con estos consejos",
+      "autor": "Marla Sanchez",
+      "contenido": "Obtén el mayor provecho de tu computadora",
+      "imagen": "img/computadoras.jpeg"
+    }
+  ]
+}
