@@ -1,0 +1,78 @@
+/*--------------------------------
+Configuraciones generales
+--------------------------------*/
+html,
+body {
+    /*Especifica la altura del área del contenido HTML*/
+    height: 100%;
+    /*Define el tipo de fuente. Si se utilizan fuentes de Google,
+    aquí se especifica el nombre con comillas simples '' */
+    font-family: 'Nunito Sans';
+}
+
+/* Regla que aplica a todos los párrafos */
+p {
+    /*Tamaño de fuente*/
+    font-size: 15px;
+    /*Tipo de fuente de Google*/
+    font-family: 'Montserrat';
+    /*Color de texto en párrafos*/
+    color: #3d3d3d;
+    /*Grueso de la fuente*/
+    font-weight: bold;
+    /*Altura entre líneas de texto*/
+    line-height: 25px;
+    /*Margen definido en los 4 lados en el orden: 
+    Arriba | Derecha | Abajo | Izquierda*/
+    margin: 0 0 15px 0;
+}
+
+/*Selector de clase que aplica un estilo de botón a las ligas <a></a>*/
+.primary-btn {
+    /*Especifica el tipo de cuadro de representación utilizado*/
+    display: inline-block;
+    /*Tamaño de letra*/
+    font-size: 13px;
+    /*Grueso de la fuente*/
+    font-weight: 500;
+    /*Define el texto en mayúsculas*/
+    text-transform: uppercase;
+    /*Relleno Arriba-Abajo primer valor, Izquierda-Derecha segundo valor*/
+    padding: 14px 30px;
+    /*Color de texto*/
+    color: #ffffff;
+    /*Color de fondo*/
+    background: #000000;
+    /*Espacio horizontal entre letras*/
+    letter-spacing: 4px;
+}
+
+/*Selector de clase que aplica un estilo de botón cuando el mouse está sobre la liga*/
+
+.primary-btn:hover {
+  /*Oculta el subrayado de la liga*/
+  text-decoration: none;
+  /*Color de texto*/
+  color: #000000;
+  /*Color de fondo*/
+  background: #00C2CB;
+}
+
+/*Aporta estilo a la estructura de cada artículo del blog */
+.article {
+  /*Definición de la estructura que se comporte como tabla con el módulo flexbox */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /*Agrega un borde a toda la estructura del artículo*/
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  /*Define el ancho de la estructura del artículo*/
+  width: 40%;
+}
+
+/* Define el ancho de la imagen del artículo */ 
+.image-article {
+  /* Se estructura al 100% del ancho de la columna */
+  width: 100%;
+}
